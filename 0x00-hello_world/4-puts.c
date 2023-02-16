@@ -1,5 +1,6 @@
 #include <stdio.h>
-/*main entry point
+/
+*main entry point
 *retrun: always 0(sucess)
 */
 int main(void)
