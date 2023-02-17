@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * included stdio header
+ */
 
-/* betty style doc for function main goes there */
+/**
+ *a c program file for figuring out positive or negative
+ */
 int main(void)
 {
 	int n;
