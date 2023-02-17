@@ -17,8 +17,8 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-                printf("%d", n);
-                printf(" is negative\n");
+ printf("%d", n);
+ printf(" is negative\n");
         }
 	else
 	{
