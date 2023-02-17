@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-int y,z;
-for (y = '0';y < '9'; y++)
+int y, z;
+for (y = '0'; y < '9'; y++)
 {
 for (z = y + 1; z <= '9'; z++)
 {
