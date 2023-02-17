@@ -2,11 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * included stdio header
- */
-
-/**
- *a c program file for figuring out positive or negative
+ * main - Entry point
+ *
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
