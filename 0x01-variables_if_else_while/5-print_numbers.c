@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-    int alpha = 'a';
-    while (alpha < 'z')
+int x = 0;
+
+while( x < 10)
 {
-putchar (alpha);
-alpha++;
+printf("%d", x);
+x++;
 }
-putchar (alpha,"\n");
+printf("\n");
 return (0);
 }

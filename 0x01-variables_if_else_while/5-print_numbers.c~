@@ -6,16 +6,13 @@
  */
 int main(void)
 {
-int alpha = 'a';
+int x=0;
 
-while (alpha <= 'z')
+while( x < 10)
 {
-if (alpha != 'q' || alpha != 'e')
-{
-putchar (alpha);
+printf("%d",x);
+x++;
 }
-alpha++;
-}
-putchar ('\n');
+printf("\n");
 return (0);
 }

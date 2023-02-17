@@ -1,9 +1,0 @@
-#include <stdio.h>
-
-/**
-*some deiscription
-*
-*/
-
-int main(void)
-{
