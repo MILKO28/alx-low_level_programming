@@ -2,18 +2,18 @@
 /**
  * main - Entry point
  *
- * Return: Always 1 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
+	char *p = "_putchar";
 
-char printing[10]="_putchar";
+	while (*p)
+	{
+		putchar(*p);
+		p++;
+	}
+	putchar('\n');
 
-for (int i=0; printing[i] != '\0'; i++)
-{
-putchar(printing[i]);
-}
-
-return (0);
+	return (0);
 }
