@@ -5,7 +5,6 @@
  *
  * Return: Always 0 (Succes)
  */
-
 void times_table(void)
 {
 	int rone, cone, d;

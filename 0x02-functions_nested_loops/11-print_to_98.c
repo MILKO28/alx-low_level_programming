@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * function
- *
- * Return: Always 0 (Succes)
+ * add - a function that adds two integers and returns the result
+ * @one: first number input
+ * @two: second number input
+ * Return: one + two
  */
 
 void print_to_98(int n)
