@@ -3,8 +3,8 @@
 
 
 /**
- *add - a function that adds two integers and returns the result
- *
+ *a function that adds two integers and returns the result
+ *@n : parameter
  *
  *Return: one + two
  */
