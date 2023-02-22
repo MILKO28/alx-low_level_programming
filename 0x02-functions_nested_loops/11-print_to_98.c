@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  *a function that adds two integers and returns the result
- *@n : parameter
- *@print_to_98
+ *
  *Return: one + two
  */
 void print_to_98(int n)
