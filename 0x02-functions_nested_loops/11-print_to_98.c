@@ -3,10 +3,10 @@
 
 
 /**
- * add - a function that adds two integers and returns the result
- * @one: first number input
- * @two: second number input
- * Return: one + two
+ *add - a function that adds two integers and returns the result
+ *
+ *
+ *Return: one + two
  */
 
 void print_to_98(int n)
