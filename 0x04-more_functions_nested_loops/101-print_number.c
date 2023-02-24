@@ -22,11 +22,11 @@ putchar(n % 10 + '0');
 else if (n >= 100 && n < 1000)
 {
 putchar(n / 100 + '0');
-n = n%100;
+n = n % 100;
 putchar(n / 10 + '0');
 putchar(n + '0');
 }
-else if (n >=100 && n < 10000)
+else if (n >= 100 && n < 10000)
 {
 putchar(n / 1000 + '0');
 n = n % 1000;
