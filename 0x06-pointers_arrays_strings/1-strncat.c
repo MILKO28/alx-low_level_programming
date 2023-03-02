@@ -4,18 +4,21 @@
  * @dest: destination
  * @src: source
  * @n: bytes
+ * Return: destination return
  */
 
 char* _strncat(char *dest, char *src, int n)
 {
-    int sum_1 = 0, i;
+	int sum_1 = 0, i;
 
-    for (i = 0; dest[i] != '\0'; i++)
-    {
-        sum_1++;
-    }
-    for (i = 0 ; i < n && src[i] != '\0' ; i++)
-        dest[sum_1 + i] = src[i];
-    dest[sum_1 + i] = '\0';
-   return (dest);
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+		sum_1++;
+	}
+	for (i = 0 ; i < n && src[i] != '\0' ; i++)
+	{
+		dest[sum_1 + i] = src[i];
+	}
+	dest[sum_1 + i] = '\0';
+	return (dest);
 }
