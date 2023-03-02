@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncat - a function that concatenates two strings.
  * @dest: destination
@@ -6,7 +7,6 @@
  * @n: bytes
  * Return: destination return
  */
-
 char* _strncat(char *dest, char *src, int n)
 {
 	int sum_1 = 0, i;
