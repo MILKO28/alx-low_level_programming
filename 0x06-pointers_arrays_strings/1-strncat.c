@@ -15,7 +15,7 @@ char* _strncat(char *dest, char *src, int n)
 	{
 		sum_1++;
 	}
-	for (i = 0 ; i < n && src[i] != '\0' ; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[sum_1 + i] = src[i];
 	}
