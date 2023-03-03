@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string -changes all lowercase letters of a string to uppercase
+ * leet -changes all lowercase letters of a string to uppercase
  * @s: input
  * Return: destination
  */
