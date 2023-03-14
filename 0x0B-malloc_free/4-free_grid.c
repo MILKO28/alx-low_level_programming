@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stddf.h>
 #include "main.h"
 /**
  * free_grid - use free function on previous grid
